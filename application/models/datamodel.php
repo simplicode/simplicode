@@ -12,7 +12,7 @@ class Datamodel extends CI_Model {
     
     function __construct() {
         parent::__construct();
-        defined('AZURE_CONNECTION_STRING') or define ('AZURE_CONNECTION_STRING', "DefaultEndpointsProtocol=https;AccountName=makerdostartups;AccountKey=RmDNkdVZvZkkjiiic0TE2vWm4C2FpBKGOZAZVD4Iw8Zv364NsOPKqdU0bMDbErbKLlDESIgD9RCWY7YxC1pS5Q==");
+        defined('AZURE_CONNECTION_STRING') or define ('AZURE_CONNECTION_STRING', "DefaultEndpointsProtocol=https;AccountName=simplifik;AccountKey=ZJ2waKQ2eSrNysahoAgkzHyXkOtNcJVZLSwsjLhbbSYcID7yK+Yl1Pc7AhNuG07rQA6mc2UkT78JkYb/yE1RTg==");
     }
 
     function upload_command($grupo, $dispositivo, $mensaje) {
